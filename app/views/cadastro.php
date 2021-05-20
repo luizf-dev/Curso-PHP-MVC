@@ -4,7 +4,7 @@
     </div>
 
     <div class="col s12">
-        <form action="?router=Site/cadastro/" method="post">
+        <form action="/Curso-PHP-MVC/Site/cadastrar/" method="post">
             <div class="input-field col s12 m6 l6">
                 <input type="text" name="nome" id="nome" required>
                 <label for="nome" class="for">Digite seu nome</label>
@@ -13,11 +13,6 @@
             <div class="input-field col s12 m6 l6">
                 <input type="email" name="email" id="email" required>
                 <label for="email" class="for">Digite seu email</label>
-            </div>
-
-            <div class="input-field col s12 m6 l12">
-                <input type="tel" name="telefone" id="telefone" required>
-                <label for="telefone" class="for">Digite seu telefone</label>
             </div>
             
             <div class="input-field col s12">
